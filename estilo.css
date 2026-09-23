@@ -1,0 +1,74 @@
+body, html {
+  background-image: url(/Imagens/Fundos/fundo.png);
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+
+
+#boasvindas {
+  color: whitesmoke
+}
+
+#sobremim {
+  color: whitesmoke;
+}
+
+#projetos {
+  color: whitesmoke;
+}
+
+#formulario {
+  color: whitesmoke
+}
+
+.form-label {
+  color: whitesmoke
+}
+
+#adn {
+  color: whitesmoke;
+}
+
+#exampleFormControlInput1 {
+  background-color: #585f25;
+}
+
+#exampleFormControlTextarea1 {
+  background-color: #585f25;
+}
+
+.form-control {
+  border-color: black;
+  color: white;
+}
+.form-control::placeholder {
+    color: white;
+  }
+
+
+  .form-control:focus {
+    border-color: black;
+    color: white;
+  }
+
+  .navbar-toggler-icon {
+    filter: brightness(0) invert(1);
+  }
+
+  .navbar-toggler {
+    border-color: white;
+    outline: none;
+    box-shadow: none;
+  }
+  
+  .navbar-toggler:focus, 
+  .navbar-toggler:active {
+    outline: none;
+    box-shadow: 0 0 0 2px white;
+  }
+  
+  .nav-link.active {
+    border-radius: 15px;
+  }

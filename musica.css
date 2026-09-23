@@ -1,0 +1,30 @@
+body, html {
+  background-image: url(/Imagens/Fundos/fundo_vermelho.png);
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.navbar-toggler-icon {
+  filter: brightness(0) invert(1);
+}
+
+.navbar-toggler {
+  border-color: white;
+  outline: none;
+  box-shadow: none;
+}
+
+.navbar-toggler:focus, 
+.navbar-toggler:active {
+  outline: none;
+  box-shadow: 0 0 0 2px white;
+}
+
+.dropdown-toggle {
+  border: none;
+}
+
+.nav-link.active {
+  border-radius: 15px;
+}

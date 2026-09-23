@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Animação - Mauro Rocha</title>
+  <link rel="icon" href="/Imagens/Logo.png" type="icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link href="animacao.css" rel="stylesheet">
+</head>
+<body>
+  
+
+
+<!--Navbar-->
+<header>
+  <nav class="navbar navbar-expand-lg navbar-inverse" style="background-color: rgba(128, 128, 128, 0.5);">
+    <div class="container-fluid">
+      <a class="navbar-brand" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom" href="#">
+        <img src="/Imagens/Logo.png" alt="Logo" width="54" height="54" class="d-inline-block align-text-top">
+      </a>
+      <a class="navbar-brand text-white" href="#footer">Mauro Rocha</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link text-white p-2" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-white p-2" style="background-color: rgba(0, 0, 0, 0.263);" href="#">Animação</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white p-2" href="musica.html">Música</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white p-2" href="#projetos" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Projetos
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#ProblemSolvers">Problem Solvers</a></li>
+              <li><a class="dropdown-item" href="#FeriasdeElefante">Férias de Elefante</a></li>
+              <li><a class="dropdown-item" href="#behindtheheadlines">Behind the Headlines</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#exercicios">Exercícios</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+
+<!--Off Canvas-->
+<div class="offcanvas offcanvas-bottom bg-dark text-white" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasBottomLabel">Ouch!</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body small">
+    O meu olho... :(
+  </div>
+</div>
+
+
+
+  <!--Carrossel-->
+  <div id="carouselExample" class="carousel slide m-5 border shadow-lg">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="/Imagens/Display/Display_ProblemSolvers.png" class="d-block w-100" alt="Frame Animação (Problem Solvers): Corvo olha para cima">
+      </div>
+      <div class="carousel-item">
+        <img src="/Imagens/Display/Display_StopMotion.png" class="d-block w-100" alt="Frame Animação (Férias de Elefante): Elefante com calor">
+      </div>
+      <div class="carousel-item">
+        <img src="/Imagens/Display/Display_BehindTheHeadlines.png" class="d-block w-100" alt="Frame Animação (Behind the Headlines): Miúda mostra uma estrela">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+
+  <!--Animação 1-->
+<div id="sobremim" class="container pb-3 pt-5">
+  <div class="row align-items-center">
+    <div class="col-12 col-md-8 col-lg-8 text-white order-2 order-md-1 order-lg-1">
+      <h2>Animação</h2>
+      <p><h5>Vou começar por mostrar as minhas curtas de animação, acabadas e inacabadas, do mais antigo ao mais recente, mostrando a minha evolução e um pouco do processo e no fim vou mostrar alguns exercícos que fizeram parte da unidade curricular Animação 1.</h5></p>
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle bg-dark text-light shadow-lg" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <b>Software</b>
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#ProblemSolvers">Flipaclip</a></li>
+          <li><a class="dropdown-item" href="#FeriasdeElefante">Dragon Frame</a></li>
+          <li><a class="dropdown-item" href="#behindtheheadlines">Photoshop</a></li>
+          <li><a class="dropdown-item" href="#cave">After Effects</a></li>
+          <li><a class="dropdown-item" href="#metamorfose">Adobe Animate</a></li>
+          <li><a class="dropdown-item" href="#animatic">Storyboarder</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-12 col-md-4 col-lg-4 img-fluid order-1 order-md-2 order-lg-2 text-center">
+      <div class="ratio ratio-1x1">
+        <img src="/Imagens/logo_animado.gif" class="d-block w-100 img-fluid" style="object-fit: cover; transform: scale(1.0);" alt="Logo animado (olho olhando em volta)">
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!--Problem Solvers-->
+<div id="ProblemSolvers" class="text-light mt-5 ms-5 ps-4">
+  <h2><b>Problem Solvers</b> (2024)<span class="badge text-bg-light m-3 justify-content-start">Flipaclip</span></h2>
+</div>
+
+<div class="container">
+  <div class="row justify-content-center">
+    <video src="/Imagens/Animacao/Problem_Solvers/Animacao_Problem_Solvers.mp4" class="object-fit-contain mb-5 border shadow-lg p-0" controls></video>
+  </div>
+</div>
+
+
+
+
+
+
+
+<!--Férias de Elefante-->
+<div id="FeriasdeElefante" class="text-light mt-5 ms-5 ps-4">
+  <h2><b>Férias de Elefante</b> (2024)<span class="badge text-bg-dark m-3 justify-content-start">Dragon Frame</span></h2>
+</div>
+
+<div class="container">
+  <div class="row justify-content-center">
+    <video src="/Imagens/Animacao/Ferias_de_Elefante/Animacao_Ferias_de_Elefante.mp4" class="object-fit-contain mb-5 border shadow-lg p-0" controls></video>
+  </div>
+</div>
+
+
+
+
+
+<!--BTS Férias de Elefante-->
+<div class="container">
+  <div class="row text-light">
+    <div class="ps-4 ms-1">
+      <h5><i>BTS (Marionetas, Character Design e Storyboard)</i></h5>
+    </div>
+    <div class="col-12 col-md-12 col-lg-6">
+      <div id="carouselBTS" class="carousel slide m-3 border shadow-lg">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="ratio ratio-1x1">
+              <img src="/Imagens/Animacao/Ferias_de_Elefante/BTS_Ferias_de_Elefante_1.jpeg" class="d-block w-100" style="object-fit: cover;" alt="Marioneta de cartão desmontada">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="ratio ratio-1x1">
+              <img src="/Imagens/Animacao/Ferias_de_Elefante/BTS_Ferias_de_Elefante_2.jpeg" class="d-block w-100" style="object-fit: cover;" alt="Cenário de cartão">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="ratio ratio-1x1">
+              <img src="/Imagens/Animacao/Ferias_de_Elefante/BTS_Ferias_de_Elefante_3.jpeg" class="d-block w-100" style="object-fit: cover;" alt="Marioneta de plasticina caseira (deu demasiados problemas)">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="ratio ratio-1x1">
+              <img src="/Imagens/Animacao/Ferias_de_Elefante/BTS_Ferias_de_Elefante_4.jpeg" class="d-block w-100" style="object-fit: cover;" alt="Fotografia do set-up da animação">
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselBTS" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselBTS" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <div class="col-12 col-md-12 col-lg-6">
+      <div id="carouselCD" class="carousel slide m-3 border shadow-lg">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="ratio ratio-1x1">
+              <img src="/Imagens/Animacao/Ferias_de_Elefante/Character_Design_Ferias_de_Elefante_1.jpeg" class="d-block w-100" style="object-fit: cover;" alt="Design de Personagem: Leão">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="ratio ratio-1x1">
+              <img src="/Imagens/Animacao/Ferias_de_Elefante/Character_Design_Ferias_de_Elefante_2.jpeg" class="d-block w-100" style="object-fit: cover;" alt="Design de personagem: Panda">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="ratio ratio-1x1">
+              <img src="/Imagens/Animacao/Ferias_de_Elefante/Storyboard_Ferias_de_Elefante.jpeg" class="d-block w-100" style="object-fit: cover;" alt="Storyboard em papel">
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselCD" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselCD" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<!--Behind the Headlines-->
+<div id="behindtheheadlines" class="text-light mt-5 ms-5 ps-4">
+  <h2><b>Behind the Headlines</b> (2025)<span class="badge text-bg-primary m-3 justify-content-start">Photoshop</span><span class="badge text-bg-primary m-3 justify-content-start">After Effects</span></h2>
+</div>
+
+<div class="container">
+  <div class="row justify-content-center">
+    <video src="/Imagens/Animacao/Behind_the_Headlines/Animacao_Behind_the_Headlines.mp4" class="object-fit-contain mb-5 border shadow-lg p-0" controls></video>
+  </div>
+</div>
+
+
+<!--BTS Behind the Headlines-->
+<div id="btsbehindtheheadlines" class="container">
+  <div id="animatic" class="row">
+    <div class="col-12 col-md-12 col-lg-12 justify-content-end ps-3 text-light">
+      <h5><i>BTS (Time-lapse e Animatic)</i><span class="badge text-bg-secondary m-3 justify-content-start">Storyboarder</span></h5>
+    </div>
+  </div>
+  <div id="timelapse" class="row">
+    <div class="col-12 col-md-12 col-lg-6 justify-content-start">
+      <video src="/Imagens/Animacao/Behind_the_Headlines/Timelapse_Behind_the_Headlines.mp4" class="object-fit-contain border shadow-lg d-block w-100 mb-5" controls></video>
+    </div>
+    <div class="col-12 col-md-12 col-lg-6 justify-content-end">
+      <video src="/Imagens/Animacao/Behind_the_Headlines/Animatic_Behind_the_Headlines.mp4" class="object-fit-contain border shadow-lg d-block w-100 mb-5" controls></video>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+<!--exercicios-->
+<div id="exercicios" class="container">
+  <div class="row text-center">
+    <div class="col-12 col-md-12 col-lg-12 text-light p-3 pt-5">
+      <h2><b>Exercícios</b></h2>
+    </div>
+  </div>
+</div>
+
+
+
+<!--Rotoscopia-->
+<div class="container">
+  <div class="row text-light">
+    <h5><i>Rotoscopia</i><span class="badge text-bg-primary m-3">Photoshop</span></h5>
+  </div>
+</div>
+
+<div id="exercicios" class="container">
+  <div id="rotoscopia" class="row">
+    <div class="col-12 col-md-12 col-lg-6 justify-content-start">
+      <video src="/Imagens/Animacao/Exercicios/Rotoscopia.mp4" class="object-fit-contain border shadow-lg d-block w-100 mb-5" controls></video>
+    </div>
+    <div class="col-12 col-md-12 col-lg-6 justify-content-end">
+      <video src="/Imagens/Animacao/Exercicios/Rotoscopia_ref.mp4" class="object-fit-contain border shadow-lg d-block w-100 mb-5" controls></video>
+    </div>
+  </div>
+</div>
+
+
+
+<!--Metamorfose-->
+<div id="exercicios" class="container">
+  <div id="metamorfose" class="row justify-content-center">
+    <div class="col-12 col-md-12 col-lg-6 text-light">
+      <h5><i>Metamorfose</i><span class="badge text-bg-primary m-3">Adobe Animate</span></h5>
+      <video src="/Imagens/Animacao/Exercicios/Metamorfose.mp4" class="object-fit-contain border shadow-lg d-block w-100 mb-5" controls></video>
+    </div>
+  </div>
+</div>
+
+
+<!--CAVE-->
+<div id="exercicios" class="container">
+  <div id="cave" class="row text-light">
+    <h5><i>Simulação CAVE</i><span class="badge text-bg-primary m-3">After Effects</span></h5>
+    <div class="col-12 col-md-12 col-lg-9 justify-content-start">
+      <video src="/Imagens/Animacao/Exercicios/Cave_2D.mp4" class="object-fit-contain border shadow-lg d-block w-100 mb-5" controls></video>
+    </div>
+    <div class="col-12 col-md-12 col-lg-3 justify-content-end">
+      <video src="/Imagens/Animacao/Exercicios/Cave_3D.mp4" class="object-fit-contain border shadow-lg d-block w-100 mb-5" controls></video>
+    </div>
+  </div>
+</div>
+
+
+<!--Rigging-->
+<div id="exercicios" class="container">
+  <div id="rigging" class="row text-light">
+    <h5><i>2D Rigging</i><span class="badge text-bg-primary m-3">After Effects</span></h5>
+    <div class="col-12 col-md-12 col-lg-6 justify-content-start">
+      <video src="/Imagens/Animacao/Exercicios/Rigging_aula.mp4" class="object-fit-contain border shadow-lg d-block w-100 mb-5" controls></video>
+    </div>
+    <div class="col-12 col-md-12 col-lg-6 justify-content-end">
+      <video src="/Imagens/Animacao/Exercicios/Rigging.mp4" class="object-fit-contain border shadow-lg d-block w-100 mb-5" controls></video>
+    </div>
+  </div>
+</div>
+
+
+
+<!--Footer-->
+<footer id="footer" class="bg-dark pt-5 pb-4">
+  <div class="container bg-dark">
+    <div class="row">
+      <div class="col-12 col-md-12 col-lg-12 text-white text-center">
+        <p>
+          <a href="https://www.behance.net/maurorocha9" class="text-white me-3"><i class="bi bi-behance"></i></a>
+        </p>
+        <p>
+          <a href="index.html" class="btn text-white pt-3 mb-3">Home</a>
+          <a href="#" class="btn text-white text-center pt-3 mb-3">Animação</a>
+          <a href="musica.html" class="btn text-white text-center pt-3 mb-3">Música</a>
+        </p>
+        dinis.mauro06@gmail.com<p>40240225@esmad.ipp.pt</p><p><i class="bi bi-c-circle"></i> 2026 Mauro Rocha. All rights reserved.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+<!--BootStrap HTML-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+<!--Bootstrap Icons-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"></script>
+
+
+</body>
+</html>
